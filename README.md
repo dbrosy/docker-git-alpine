@@ -2,14 +2,13 @@
 
 A useful simple git container running in alpine Linux, especially for tiny Linux distro, such as RancherOS, which doesn't have a package manager.
 
-### Setup
+### Installation
 ```
 alias git="docker run -ti --rm -v $(pwd):/git dbrosy/docker-git-alpine"
 ```
 ### usage
-
 ```
-git clone https://<git url>
+git clone https://github.com/dbrosy/rancher-server.git
 ```
     
 ### Credits
